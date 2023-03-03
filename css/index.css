@@ -1,0 +1,32 @@
+
+input[type='text'] {
+  
+  color: #ffffff;
+}
+.notification {
+  width: 200px;
+  padding: 10px;
+  border-radius: 2px;
+  position: absolute;
+  left: calc(50% - 100px);
+  bottom: -100px;
+  transition: 450ms ease-in-out;
+  text-align: center;
+  line-height: 25px;
+}
+.notification.show {
+  bottom: 50px;
+  transition: 450ms ease-in-out;
+}
+.info {
+  background: #3988f2;
+  color: #ffffff;
+}
+.warning {
+  background: #fe8c8c;
+  color: #000000;
+}
+.success {
+  background: #60c356;
+  color: #000000;
+}
